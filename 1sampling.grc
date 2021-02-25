@@ -116,7 +116,7 @@ blocks:
     bus_structure: null
     coordinate: [497, 464]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: blocks_throttle_0
   id: blocks_throttle
   parameters:
@@ -154,7 +154,7 @@ blocks:
     bus_structure: null
     coordinate: [390, 582]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: low_pass_filter_0
   id: low_pass_filter
   parameters:
