@@ -1,7 +1,10 @@
 # basicSDR
+## SDR Complex Mixing, Sampling, Fourier, Zero-IF Quadrature Direct-Conversion
+## GNUradio simulation-only flowgraphs
+## Jason Gallicchio jason@gallicchio.org
+## Video at: https://youtu.be/BIPXoBCDJv4
 
-﻿SDR Complex Mixing, Sampling, Fourier, Zero-IF Quadrature Direct-Conversion
-
+~~~
 1. sampling
     Show cosine
         Slider to higher freq
@@ -198,15 +201,15 @@
             this leads to images and things like the 0Hz spike in actual SDRs, 
             which is why we tune off-center or put 0Hz between channels if there is room.
             We can later shift down with complex exp.
-         
+~~~
 
 
 
 
 
 
-
-
+## Other notes
+~~~
 Euler and basic trig identities:
     Sum and difference:
     sin(a±b) = sin(a)cos(b) ± cos(a)sin(b)
@@ -255,5 +258,5 @@ Real modulation
 Complex modulation
 
 Zero IF modulation
-
+~~~
 
